@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/img/hero.jpg" alt="TOPIKO" width="520">
+<img src="docs/img/hero.png" alt="TOPIKO" width="520">
 
 # TOPIKO
 
