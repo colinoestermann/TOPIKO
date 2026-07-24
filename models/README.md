@@ -21,7 +21,7 @@ Zielpfad: `~/whisper.cpp/models/ggml-small-q4_0.bin`
 quantisiertes Sprachmodell, das den transkribierten Text in die TOPIKO-Kategorien
 (Termin, To-do, Erinnerung, Idee, Tagebuch) einsortiert. Gehostet auf Hugging Face:
 
-> **➡ Download: `<HUGGING-FACE-LINK-HIER-EINTRAGEN>`**
+> **➡ Download: https://huggingface.co/colin18054/TOPIKO-LFM2.5-350M-GGUF**
 
 Nach dem Download ablegen unter:
 
@@ -48,11 +48,11 @@ hochladen:
 
 ```bash
 pip install -U "huggingface_hub[cli]"
-huggingface-cli login                     # Token von huggingface.co/settings/tokens
-huggingface-cli upload <HF-USER>/TOPIKO-LFM2.5-350M-GGUF \
+huggingface-cli login                     # Token von huggingface.co/settings/tokens (Rolle: Write)
+huggingface-cli upload colin18054/TOPIKO-LFM2.5-350M-GGUF \
   ~/models/LFM2.5-350M-TOPIKO-Q4_K_M.gguf \
   LFM2.5-350M-TOPIKO-Q4_K_M.gguf
 ```
 
-Anschließend den Link (`https://huggingface.co/<HF-USER>/TOPIKO-LFM2.5-350M-GGUF`)
-oben in dieser Datei und in `download-models.sh` eintragen.
+Das Modell ist bereits veröffentlicht unter
+`https://huggingface.co/colin18054/TOPIKO-LFM2.5-350M-GGUF`.

@@ -12,8 +12,7 @@ else
 fi
 
 # ── 2. TOPIKO-Sprachmodell (Klassifizierung, Hugging Face) ────────────────────
-# HF_REPO durch das echte Hugging-Face-Repo ersetzen, z. B. "colinoestermann/TOPIKO-LFM2.5-350M-GGUF"
-HF_REPO="<HF-USER>/TOPIKO-LFM2.5-350M-GGUF"
+HF_REPO="colin18054/TOPIKO-LFM2.5-350M-GGUF"
 FILE="LFM2.5-350M-TOPIKO-Q4_K_M.gguf"
 
 mkdir -p "$HOME/models"
