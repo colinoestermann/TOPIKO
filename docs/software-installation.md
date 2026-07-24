@@ -35,13 +35,16 @@ cmake -B build && cmake --build build --config Release -j
 
 ## 3. Sprachmodell (LLM) bereitstellen
 
-Der Server nutzt standardmäßig ein für TOPIKO feinjustiertes, quantisiertes Modell:
+Der Server klassifiziert mit einem für TOPIKO feinjustierten, quantisierten Modell:
 
 ```
 ~/models/LFM2.5-350M-TOPIKO-Q4_K_M.gguf
 ```
 
-Lege die GGUF-Datei unter `~/models/` ab. Alternativ lässt sich jedes kleine Instruct-Modell im GGUF-Format verwenden — dann muss der Klassifizierungs-Prompt in `topiko_uno_q_app.py` (`classify_text`) ggf. angepasst werden. Der Pfad steht oben in der Datei unter `GGUF_PATH`.
+Das Modell ist auf **Hugging Face** gehostet — Download-Link und Details stehen in [`../models/README.md`](../models/README.md). Der Zielpfad entspricht `GGUF_PATH` in `topiko_uno_q_app.py`.
+
+> **Tipp:** Beide Modelle (Whisper + Sprachmodell) auf einmal laden mit
+> [`../models/download-models.sh`](../models/download-models.sh).
 
 ## 4. Python-Abhängigkeiten
 

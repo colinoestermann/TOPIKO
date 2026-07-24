@@ -55,6 +55,7 @@ Das Handheld nimmt auf Tastendruck bis zu 20 s Audio auf, legt es in eine lokale
 topiko/
 ├── firmware/topiko_handheld/   ESP32-S3-Firmware (Arduino) inkl. ES7210/ES8311-Treiber
 ├── software/                   Dock-Software für den Arduino UNO Q (Flask + Whisper + LLM)
+├── models/                     Bezug der KI-Modelle (Whisper + TOPIKO-Sprachmodell) + Download-Skript
 ├── hardware/
 │   ├── 3d/                     Druckbare STL (Gehäuse Ober-/Unterteil)
 │   └── cad/                    CAD-Quelldateien (STEP, alle Bauteile)
