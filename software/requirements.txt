@@ -1,0 +1,4 @@
+# TOPIKO Dock — Python-Abhängigkeiten
+# whisper.cpp (whisper-cli) wird separat aus dem Quellcode gebaut, siehe docs/software-installation.md
+flask>=3.0
+llama-cpp-python>=0.2.90

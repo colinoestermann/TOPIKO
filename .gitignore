@@ -1,0 +1,26 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Arduino / Build-Artefakte
+build/
+*.bin
+*.elf
+*.map
+
+# Laufzeitdaten des Docks
+topiko_data/
+*.wav
+notes.json
+
+# Modelle (zu groß fürs Repo – separat bereitstellen)
+*.gguf
+*.ggml
+*.bin
